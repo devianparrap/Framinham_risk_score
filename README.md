@@ -1,4 +1,4 @@
-# Framimgham Risk Score Estimation
+# Framimgham Risk Score Calculation
 
 "De Todo Corazón" is a interdisciplinary intervention program held by one of the largest health insurers in Colombia aimed at
 minimizing the risk of adverse events like stroke, myiocardial infraction and hearth faillure associated to cardiovascular 
