@@ -4,10 +4,11 @@ Here I create a database of registries from the "datos_dtc" longitudinal databas
 health care providers to recieve interventions within the program activities. I filter registries by date and select relevant clinical 
 variables
 
+```R
 controles_2018<-datos_dtc %>% filter(fecha_control_o_de_atencion_ >= "2018-01-01") %>%  
   select(id, fecha_control_o_de_atencion_, tas, tad, hba1c, erc, dm, hta, disl, col_ldl, col_hdl, 
   col_total, tfg, afic_sexo, afif_nacimiento, peso, talla, nom_dpto)
-
+```
 
 #Se obtiene la última obserbación para cada variable en la base
 f_ult<-function(x){
