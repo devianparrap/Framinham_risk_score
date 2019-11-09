@@ -1,8 +1,8 @@
 #Framingham Risk Score Calculation
 
-Here I create a database of registries from the "datos_dtc" longitudinal database where each row is a visit of each patient to 
-health care providers to recieve interventions within the program activities. I filter registries by date and select relevant clinical 
-variables
+#Here I create a database of registries from the "datos_dtc" longitudinal database where each row is a visit of each patient to 
+#health care providers to recieve interventions within the program activities. I filter registries by date and select relevant clinical 
+#variables
 
 
 controles_2018<-datos_dtc %>% filter(fecha_control_o_de_atencion_ >= "2018-01-01") %>%  
